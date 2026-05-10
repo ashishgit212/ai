@@ -1,1 +1,0 @@
-Place your QR image inside public/qr.jpeg before deployment.
