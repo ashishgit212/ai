@@ -1,0 +1,3 @@
+module.exports=[72469,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(21934);a.n(d("[project]/Documents/Documents/My work/ai/allin1-ai-project/allin1-ai/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},72967,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(21934);a.n(d("[project]/Documents/Documents/My work/ai/allin1-ai-project/allin1-ai/node_modules/next/dist/client/components/builtin/global-error.js"))},5182,a=>{"use strict";a.i(72469);var b=a.i(72967);a.n(b)},22644,a=>{a.n(a.i(5182))}];
+
+//# sourceMappingURL=0.e5_next_dist_client_components_builtin_global-error_0c669s_.js.map
