@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cloudflare Deploy Test</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #4f46e5, #06b6d4);
+      color: white;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .card {
+      background: rgba(0,0,0,0.25);
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: white;
+      color: #111;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: #e5e7eb;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>🚀 Cloudflare Deploy Success Test</h1>
+    <p>If you see this page, your deployment is working perfectly.</p>
+
+    <button onclick="test()">Click Me</button>
+    <p id="msg"></p>
+  </div>
+
+  <script>
+    function test() {
+      document.getElementById("msg").innerText =
+        "✔️ JavaScript is working on Cloudflare!";
+      console.log("Cloudflare test successful");
+    }
+  </script>
+</body>
+</html>
